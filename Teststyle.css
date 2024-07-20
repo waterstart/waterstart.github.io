@@ -1,0 +1,22 @@
+a{
+    color:rgb(48, 139, 61);
+}
+
+a:visited{
+    color: gold;
+}
+
+
+body {
+    font-size: 22px;
+}
+
+p{
+    color:brown;
+} 
+
+.quote {
+
+    font-style: italic;
+    color:brown;
+}

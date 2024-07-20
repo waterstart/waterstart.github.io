@@ -1,0 +1,14 @@
+.quote {
+
+    font-style: italic;
+}
+
+.quote:hover
+{
+    color:#2870AE;
+}
+
+.quote:click
+{
+
+}
