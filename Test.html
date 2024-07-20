@@ -4,66 +4,107 @@
 
 <head>
 
-<meta charset = "UTF-8">
-<title> Test enviornment </title>
-<meta name = "author" content = " abdulrahmon tijani">
+    <meta charset="UTF-8">
+    <title> Test enviornment </title>
+    <meta name="author" content=" abdulrahmon tijani">
 
-<link rel = "icon" href = "images/TEST.jpg" type = "image/x-icon">
-
-
-</head> 
+    <link rel="icon" href="images/TEST.jpg" type="image/x-icon">
+    <link rel ="stylesheet" href = "main.css">
+</head>
 
 <!-- end of headers-->
 
 <body>
-    
-    <h1> Test header lol  </h1>
-    
-    <a href = "index.html"> <img src = "/images/TEST.jpg" alt = "TEST image" title = "This is a test image tooltip wololo"></a>
+
+    <h1> Test Main header lol </h1>
+    <nav>
+         <ul>
+          <li><a href = "#lists">lists</a></li>
+          <li><a href = "#IMGS">images</a></li>
+        </ul>
+
+    <a href="index.html"> <img src="/images/TEST.jpg" alt="TEST image" title="This is a test image tooltip wololo"></a>
     <hr>
+    </nav>
 
-    <p>Italics are <abbr title = "Computer Optimized Ordeal Lines">cool </abbr> what a dumb name</p>
-    
-<section> <!-- playing with lists -->
-    <h2> Ordered lists  </h2>
-    <ol> 
-        <li>abdulrahmon</li>
-        <li> muadh </li>
-        <li> jumana</li>
-    </ol>
-            
-<hr>
+    <p>Italics are <abbr title="Computer Optimized Ordeal Lines">cool </abbr> what a dumb name</p>
 
-<h2> Unordered lists  </h2>
-    
-    <ul> 
-        <li>abdulrahmon</li>
-        <li> muadh </li>
-        <li> jumana</li>
-    </ul> 
+    <section id = "lists">
+        <!-- playing with lists -->
+        <h2> Ordered lists </h2>
+        <ol>
+            <li>abdulrahmon</li>
+            <li> muadh </li>
+            <li> jumana</li>
+        </ol>
 
-<hr>
+        <hr>
 
-<h2> Descripitive lists</h2>
+        <h2> Unordered lists </h2>
 
-    <dl>
-        <dt> Abdulrahmon</dt>
-        <dd> the <b>eldest</b></dd>
+        <ul>
+            <li>abdulrahmon</li>
+            <li> muadh </li>
+            <li> jumana</li>
+        </ul>
+
+        <hr>
+
+        <h2> Descripitive lists</h2>
+
+        <dl> 
+            <dt>Abdulrahmon</dt>
+            <dd> the <b>eldest</b></dd>
+
+            <dt>Muadh</dt>
+            <dd> The second youngest</dd>
+
+            <dt>jumana</dt>
+            <dd> the youngest</dd>
+        </dl>
+
+    </section>
+
+    <section id ="IMGS">
+        <!-- playing with links and images -->
+        <hr>
+        <h2> Links </h2>
+        <ul>
+            <li>download <a href="images/TEST.jpg" download> this now </a></li>
+            <li> <a href="random@gmail.com"> contact me  </a> </li>
+        </ul>
+        <hr>
+
+        <h2> Images </h2>
+        <figure>
+            <img src="/images/TempPort.png" alt="TEST image" title="This is a test image tooltip wololo" loading="lazy">
+            <figcaption> This is a test image caption wololo</figcaption>
+        </figure>
+    </section>
+
+
+    <section id ="TextColors">
+        <hr>
+        <h1> CSS TEST AREA</h1>
         
-        <dt>Muadh</dt>
-         <dd> The second youngest</dd>
 
-        <dt>jumana</dt>
-         <dd> the youngest</dd>
-    </dl>
-            
-</section>
-     
-<section> <!-- playing with links -->
- download <a href = "index.html" download> this now </a>
- 
 
-</section>
+
+
+
+
+
+
+
+    </section>
+
+
+
+
+    <p><a href="/">Main page</a></p>
+    <a href="#">
+         <img src = "/images/UpArrow.png" alt = "Arrow Icon" loading = lazy width = 100>
+    </a>
 
 </body>
 

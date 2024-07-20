@@ -1,6 +1,11 @@
-img {
-    width: 100px;
-    border-radius: 50px;
-    float: right;
+a{
+    color:rgb(48, 139, 61);
+}
 
+a:visited{
+    color: gold;
+}
+
+a:hover{
+    color: rgb(165, 47, 155);
 }
