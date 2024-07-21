@@ -1,10 +1,40 @@
 .quote {
 
     font-style: italic;
+    display: inline;
+
+}
+
+body 
+{
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .quote:hover
 {
     color:#2870AE;
+}
+
+p p 
+{
+    display: inline !important;
+}
+p{
+    font-family: 'pt-serif', serif;
+    font-size: 1.125rem;
+}
+
+h2{
+    font-family: "abril-titling", serif;
+    
+}
+.title
+{
+    font-family: 'Amador', 'Arial Narrow', Arial, sans-serif;
+    font-size:3.125rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 

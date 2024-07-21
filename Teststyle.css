@@ -1,20 +1,10 @@
-a{
-    color:rgb(48, 139, 61);
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
-a:visited{
-    color: gold;
-}
-
-
-body {
-    font-size: 22px;
-}
-
-p{
-    color:brown;
-} 
-
 .quote {
 
     font-style: italic;
@@ -25,6 +15,16 @@ p{
     color:#2870AE;
 }
 
-.quote:click
+.title
 {
+    font-family: 'Amador', 'Arial Narrow', Arial, sans-serif;
+    border: 2px dashed Teal ;
+    box-sizing: border-box;
+    font-size:3.125rem;
+    padding-left: 14em;
+}
+
+.images
+{
+    margin: 0.20rem;
 }
