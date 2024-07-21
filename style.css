@@ -7,8 +7,8 @@
 
 body 
 {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .quote:hover
@@ -16,23 +16,35 @@ body
     color:#2870AE;
 }
 
-p p 
+hr
 {
-    display: inline !important;
+    color: gray;
 }
+
 p{
     font-family: 'pt-serif', serif;
-    font-size: 1.125rem;
+    font-size: 1.125em;
+    line-height: 1.5;
+    max-width: 50rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1,h2{
+    font-family: "abril-titling", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 3em;
 }
 
 h2{
-    font-family: "abril-titling", serif;
-    
+    font-size: 1.75em;
 }
+
 .title
 {
-    font-family: 'Amador', 'Arial Narrow', Arial, sans-serif;
-    font-size:3.125rem;
+   font-family: 'Amador', 'Arial Narrow', Arial, sans-serif;
+   font-size:3.125em;
    display: flex;
    justify-content: center;
    align-items: center;
