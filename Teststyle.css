@@ -18,5 +18,13 @@ p{
 .quote {
 
     font-style: italic;
-    color:brown;
+}
+
+.quote:hover
+{
+    color:#2870AE;
+}
+
+.quote:click
+{
 }
