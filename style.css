@@ -67,13 +67,12 @@ h2{
    display: flex;
    justify-content: center;
    align-items: center;
-
 }
 
 .ImgOutline
 {
-    width: 4.5em;
-    height: 4.5em;
+    width: 4.5rem;
+    height: 4.5rem;
     border-radius: 50px;
 }
 
