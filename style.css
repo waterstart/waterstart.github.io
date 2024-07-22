@@ -5,6 +5,22 @@
 
 }
 
+a
+{
+    color:#128cf7;
+}
+
+a:visited 
+{
+  color:#2870AE;
+}
+
+a:hover,a:focus
+{
+text-decoration: none;
+color: #049bff;
+}
+
 body 
 {
     margin-left: 20%;
@@ -18,16 +34,18 @@ body
 
 hr
 {
+    margin-top:7%;
     color: gray;
 }
 
-p{
+p,.container a{
     font-family: 'pt-serif', serif;
     font-size: 1.125em;
     line-height: 1.5;
     max-width: 50rem;
     margin-left: 5%;
     margin-right: 5%;
+
 }
 
 h1,h2{
@@ -35,6 +53,7 @@ h1,h2{
     font-weight: 600;
     font-style: normal;
     font-size: 3em;
+
 }
 
 h2{
@@ -50,3 +69,49 @@ h2{
    align-items: center;
 }
 
+.ImgOutline
+{
+    width: 72;
+    height: 72;
+    border-radius: 50px;
+}
+
+.leftimage
+{
+    float:left;
+    margin: 0.2em;
+    max-block-size: 20em;
+}
+
+.container a{
+    margin:0;
+    position: relative;
+    top: 1rem;
+    text-decoration: none;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+
+ .text-content p
+ {
+    line-height: 0;
+    margin:0;
+    position: relative;
+    top: 2rem;
+ }
+
+.rightimage
+{
+    float:right;
+    margin: 0.2em;
+    max-block-size: 20em;
+}
+
+button {
+  float:right;
+  margin:0;
+}
