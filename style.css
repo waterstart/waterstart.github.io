@@ -67,12 +67,13 @@ h2{
    display: flex;
    justify-content: center;
    align-items: center;
+
 }
 
 .ImgOutline
 {
-    width: 72;
-    height: 72;
+    width: 4.5em;
+    height: 4.5em;
     border-radius: 50px;
 }
 
@@ -111,7 +112,10 @@ h2{
     max-block-size: 20em;
 }
 
-button {
+.buttonhold {
   float:right;
-  margin:0;
+  position: relative;
+  top: 3rem;
+  margin-right: 3em;
 }
+
