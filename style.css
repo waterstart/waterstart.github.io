@@ -120,8 +120,8 @@ h2{
 
 .buttonimage
 {
-    width: 25px;
-    height: 25px;
+    max-width: 25px;
+    max-height: 25px;
 }
 
 .btn
