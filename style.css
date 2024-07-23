@@ -118,3 +118,15 @@ h2{
   margin-right: 3em;
 }
 
+.buttonimage
+{
+    width: 25px;
+    height: 25px;
+}
+
+.btn
+{
+    border-radius: 10px;
+    background: none;
+
+ }
