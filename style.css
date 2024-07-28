@@ -25,8 +25,12 @@ color: #049bff;
 {
     margin-left: 20%;
     margin-right: 20%;
+    
 }
-
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 .quote:hover
 {
     color:#2870AE;
@@ -104,16 +108,22 @@ h2{
     top: 2rem;
  }
 
-.rightimage
-{
+
+figure {
     float:right;
-    margin: 0.2em;
-    max-block-size: 20em;
+    max-block-size: 12em;
 }
 
+figure figcaption {
+    text-align: center;
+    color:gray;
+    font-size: x-small;
+}
 .rightimagemed
 {
     max-block-size: 12em;
+    position: relative;
+    bottom:0.6rem;
 }
 
 .centerImage
@@ -156,3 +166,5 @@ position: relative;
     margin-left: 10%;
     max-width: 25%;
 }
+
+
