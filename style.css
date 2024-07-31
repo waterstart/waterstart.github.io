@@ -5,6 +5,32 @@
 
 }
 
+.leftimage
+{
+    float:left;
+}
+
+figure {
+    float:right;
+    max-block-size: 12em;
+}
+
+figure figcaption {
+    text-align: center;
+    color:gray;
+    font-size: x-small;
+}
+.rightimagemed
+{
+    max-block-size: 12em;
+    position: relative;
+    bottom:0.6rem;
+}
+
+.centerImage
+{
+    float:center;
+}
 a
 {
     color:#128cf7;
@@ -42,7 +68,7 @@ hr
     color: gray;
 }
 
-p,.container a{
+p,.container a,.leftimage,h2{
     font-family: 'pt-serif', serif;
     font-size: 1.125em;
     line-height: 1.5;
@@ -57,7 +83,6 @@ h1,h2{
     font-weight: 600;
     font-style: normal;
     font-size: 3em;
-
 }
 
 h2{
@@ -80,12 +105,6 @@ h2{
     border-radius: 2.25em;
 }
 
-.leftimage
-{
-    float:left;
-    margin: 0.2em;
-    max-block-size: 20em;
-}
 
 .container a{
     margin:0;
@@ -108,28 +127,6 @@ h2{
     top: 2rem;
  }
 
-
-figure {
-    float:right;
-    max-block-size: 12em;
-}
-
-figure figcaption {
-    text-align: center;
-    color:gray;
-    font-size: x-small;
-}
-.rightimagemed
-{
-    max-block-size: 12em;
-    position: relative;
-    bottom:0.6rem;
-}
-
-.centerImage
-{
-    float:center;
-}
 .buttonhold {
   float:right;
   position: relative;
