@@ -68,7 +68,8 @@ hr
     color: gray;
 }
 
-p,.container a,.leftimage,h2{
+
+p,.container a,.leftimage,h2,ul{
     font-family: 'pt-serif', serif;
     font-size: 1.125em;
     line-height: 1.5;
@@ -77,6 +78,7 @@ p,.container a,.leftimage,h2{
     margin-right: 5%;
 
 }
+
 
 h1,h2{
     font-family: "abril-titling", serif;
