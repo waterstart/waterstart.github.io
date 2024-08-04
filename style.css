@@ -5,7 +5,11 @@
     display: inline;
 
 }
-
+.QuizButton
+{
+    width:max-content;
+    height:2em;
+}
 .leftimage
 {
     float:left;
