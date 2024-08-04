@@ -9,6 +9,7 @@
 {
     width:max-content;
     height:2em;
+    color:aqua;
 }
 .leftimage
 {
@@ -31,7 +32,13 @@ figure figcaption {
     position: relative;
     bottom:0.6rem;
 }
-
+.largeimage
+{
+    float: none;
+    max-block-size: 40em;
+    position: relative;
+    bottom:0.6rem;
+}
 .centerImage
 {
     float:center;
