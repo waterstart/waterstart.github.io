@@ -167,7 +167,7 @@ h2{
 {
 background-image: url("images/Potrait.jpg");
 background-repeat: no-repeat;
-max-width: 50%;
+width: 50%;
 height: 75rem;
 left: 50%;
 text-align: left;
