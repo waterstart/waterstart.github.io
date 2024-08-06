@@ -109,9 +109,9 @@ h2{
    font-family: 'Amador', 'Arial Narrow', Arial, sans-serif;
    font-size:2.125em;
    position: relative;
-   right:65%;
    margin-bottom: 30rem;
    margin-top: 0;
+   margin-left: 20%;
 }
 
 .ImgOutline
@@ -167,11 +167,9 @@ h2{
 {
 background-image: url("images/Potrait.jpg");
 background-repeat: no-repeat;
-width: 50%;
+background-position: right ;
 height: 75rem;
-left: 50%;
 text-align: left;
-position: relative;
 }
 
 
