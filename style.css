@@ -65,7 +65,7 @@ color: #049bff;
     margin-right: 20%;
     
 }
-html, body {
+html,body {
     max-width: 100%;
     overflow-x: hidden;
 }
@@ -109,7 +109,7 @@ h2{
    font-family: 'Amador', 'Arial Narrow', Arial, sans-serif;
    font-size:2.125em;
    position: relative;
-   margin-bottom: 30rem;
+   margin-bottom: 15rem;
    margin-top: 0;
    margin-left: 20%;
 }
@@ -163,14 +163,15 @@ h2{
 
  }
 
- #Header
+.Header
 {
-background-image: url("images/Potrait.jpg");
-background-repeat: no-repeat;
-background-position: right ;
-height: 75rem;
-text-align: left;
+display: flex;
 }
 
 
+.HeaderContent
+{
+  
+    margin-left:20%;
 
+}
