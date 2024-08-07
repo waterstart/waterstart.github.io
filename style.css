@@ -166,12 +166,11 @@ h2{
 .Header
 {
 display: flex;
-}
-
-
-.HeaderContent
-{
-  
-    margin-left:20%;
+margin-left: 20%;
+justify-content: space-between;
 
 }
+
+
+
+
