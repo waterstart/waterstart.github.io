@@ -177,3 +177,10 @@ justify-content: space-between;
         margin-left:-10%;
     }
   }
+
+  @container HeaderResize (max-width: 1024px) {
+    div {
+        font-size: 15px;
+        margin-left:-15%;
+    }
+  }
