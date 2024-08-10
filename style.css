@@ -163,15 +163,17 @@ h2{
 
  }
 
-.BHeader
-{
+.BHeader {
 display: flex;
 flex-direction: row;
 margin-left: 20%;
+container-type: inline-size;
+container-name: HeaderResize;
 justify-content: space-between;
+  }
 
-}
-
-
-
-
+  @container HeaderResize (max-width: 1366px) {
+    div {
+        margin-left:-10%;
+    }
+  }

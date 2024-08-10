@@ -28,3 +28,19 @@
 {
     margin: 0.20rem;
 }
+.box
+{
+    container-type: inline-size;
+}
+
+.BHeader {
+    container-type: inline-size;
+    container-name: HeaderResize;
+  }
+
+  @container HeaderResize (min-width: 768px) {
+    .card {
+      font-size: 2em;
+      color:aqua;
+    }
+  }
