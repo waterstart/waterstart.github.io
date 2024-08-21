@@ -1,8 +1,17 @@
+.MainHeader
+{
+display:flex;
+align-items: center;
+}
+
+
 .title
 {
-   font-family: 'Amador', 'Arial Narrow', Arial, sans-serif;
-   font-size:2.125em;
-   display: flexbox;
-   justify-content: center;
+font-size: 5rem;
+margin-left: 30%;
+}
+
+.ScrollHeader
+{
 
 }
