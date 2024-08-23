@@ -4,6 +4,58 @@
 font-size: 5rem;
 text-align: center;
 }
+
+.CategoryBlock
+{
+display:flex;
+margin-top: 0.5rem;
+margin-left: 32%;
+gap: 1rem;
+}
+
+.CategoryBlock button
+{
+    font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size:     25px;
+    border: 0;
+    color:#2e652d;
+    background-color: white;
+}
+
+.CategoryBlock button:hover
+{
+color: #51b44f
+}
+
+.Categories
+{
+position: absolute;
+display: none;
+border: #2e652d;
+background-color: hsl(0, 0%, 95%);
+border-color: #2e652d;
+border-style: solid;
+border-width: thin;
+max-width: 5rem;
+}
+
+.DropDown
+{
+
+}
+
+.DropDown a
+{
+    display: block;
+    text-decoration: none;
+color: #63815f;
+}
+
+.DropDown:hover .Categories
+{
+    display:block;
+}
+
 #DateObject
 {
     font-size: 1rem;
