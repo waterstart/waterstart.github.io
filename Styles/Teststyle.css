@@ -1,46 +1,11 @@
-
-*
+.container
 {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.quote {
-
-    font-style: italic;
+    border-color: blue;
+    border-width: 3px;
+    border-radius: 50%;
 }
 
-.quote:hover
+#myElement
 {
-    color:#2870AE;
+    color:seagreen;
 }
-
-.title
-{
-    font-family: 'Amador', 'Arial Narrow', Arial, sans-serif;
-    border: 2px dashed Teal ;
-    box-sizing: border-box;
-    font-size:3.125rem;
-    padding-left: 14em;
-}
-
-.images
-{
-    margin: 0.20rem;
-}
-.box
-{
-    container-type: inline-size;
-}
-
-.BHeader {
-    container-type: inline-size;
-    container-name: HeaderResize;
-  }
-
-  @container HeaderResize (min-width: 768px) {
-    .card {
-      font-size: 2em;
-      color:aqua;
-    }
-  }
