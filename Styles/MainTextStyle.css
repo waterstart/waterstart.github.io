@@ -1,14 +1,13 @@
-.MainHeader
-{
-display:flex;
-align-items: center;
-}
-
 
 .title
 {
 font-size: 5rem;
-margin-left: 30%;
+text-align: center;
+}
+#DateObject
+{
+    font-size: 1rem;
+    text-align: center;
 }
 
 .ScrollHeader
