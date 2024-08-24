@@ -9,14 +9,14 @@ text-align: center;
 {
 display:flex;
 margin-top: 0.5rem;
-margin-left: 32%;
+justify-content:center;
 gap: 1rem;
 }
 
 .CategoryBlock button
 {
     font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-    font-size:     25px;
+    font-size:     1.5625rem;
     border: 0;
     color:#2e652d;
     background-color: white;
@@ -36,7 +36,7 @@ background-color: hsl(0, 0%, 95%);
 border-color: #2e652d;
 border-style: solid;
 border-width: thin;
-max-width: 5rem;
+max-width: 10rem;
 }
 
 .DropDown
@@ -49,6 +49,9 @@ max-width: 5rem;
     display: block;
     text-decoration: none;
 color: #63815f;
+font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+font-size:     1rem;
+margin: 0rem 0.5rem 1rem 0.5rem;
 }
 
 .DropDown:hover .Categories
