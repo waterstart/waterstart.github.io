@@ -39,19 +39,19 @@ border-width: thin;
 max-width: 10rem;
 }
 
-.DropDown
-{
-
-}
-
 .DropDown a
 {
     display: block;
     text-decoration: none;
 color: #63815f;
 font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-font-size:     1rem;
+font-size:     1.125rem;
 margin: 0rem 0.5rem 1rem 0.5rem;
+}
+
+.DropDown a:hover
+{
+    text-decoration: underline;
 }
 
 .DropDown:hover .Categories
@@ -65,7 +65,3 @@ margin: 0rem 0.5rem 1rem 0.5rem;
     text-align: center;
 }
 
-.ScrollHeader
-{
-
-}
