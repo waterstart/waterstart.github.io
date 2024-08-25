@@ -69,4 +69,42 @@ main
 {
     margin-left: 15%;
     margin-right: 15%;
+    font-family: 'pt-serif', serif;
+}
+
+.ArticleContainer
+{
+display: flex;
+justify-content: flex-end;
+
+
+}
+
+.VerticalRule
+{
+    border-left: 1px solid #DFDFDF;
+    margin-right: 1.6rem;
+    margin-left: 1.6rem;
+
+}
+
+.RightHandContainer
+{
+    display: flex;
+
+    max-width: 18%;
+    margin-left: auto;
+}
+
+.CentralImage
+{
+    float: center;
+}
+
+.LeftHandContainer
+{
+    display: flex;
+
+    max-width: 20%;
+    margin-right: auto;
 }
