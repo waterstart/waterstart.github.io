@@ -88,23 +88,22 @@ justify-content: flex-end;
 
 }
 
-.RightHandContainer
+
+
+.ContentContainer 
 {
     display: flex;
-
-    max-width: 23%;
-    margin-left: auto;
-}
-
-.CentralImage
-{
-    float: center;
 }
 
 .LeftHandContainer
 {
-    display: flex;
 
     max-width: 23%;
     margin-right: auto;
 }
+
+header
+{
+     margin-bottom: 1rem;
+}
+
