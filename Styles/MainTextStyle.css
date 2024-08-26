@@ -72,13 +72,7 @@ main
     font-family: 'pt-serif', serif;
 }
 
-.ArticleContainer
-{
-display: flex;
-justify-content: flex-end;
 
-
-}
 
 .VerticalRule
 {
@@ -90,11 +84,15 @@ justify-content: flex-end;
 
 
 
-.CentralContainer 
+.ContentContainer 
 {
     display: flex;
 }
 
+.LeftBlurbs
+{
+    max-width: 25%;
+}
 
 header
 {
