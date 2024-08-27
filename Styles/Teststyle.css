@@ -1,10 +1,18 @@
-.container
-{
-    border-color: blue;
-    border-width: 3px;
-    border-radius: 50%;
-}
-
+.container {
+    display: flex;
+    max-width: 120px;   /* Set the maximum width */
+    max-height: 80px;   /* Set the maximum height */
+    width: 100%;         /* Set the width to 100% of the parent container */
+    height: auto;        /* Let the height adjust based on content */
+    margin: 0 auto;      /* Center the container horizontally */
+    overflow: hidden;    /* Hide overflowing content */
+  }
+  
+  .child {
+    flex: 1 1 auto;       /* flex-grow: 1; flex-shrink: 1; flex-basis: auto; */
+    min-width: 0;         /* Ensure content shrinks properly */
+    min-height: 0;        /* Ensure content shrinks properly */
+  }
 #myElement
 {
     color:seagreen;

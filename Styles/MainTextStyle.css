@@ -91,7 +91,7 @@ main
 
 .LeftBlurbs
 {
-    max-width: 25%;
+    width: 25%;
 }
 
 header
@@ -101,6 +101,6 @@ header
 
 .CenteralImage
 {
-    width: 30rem;
-     height: 20rem;
+    width: 100%;
+     height: 10rem;
 }
