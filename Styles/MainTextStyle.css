@@ -5,6 +5,10 @@ font-size: 5rem;
 text-align: center;
 }
 
+hr
+{
+    margin: 0;
+}
 .CategoryBlock
 {
 display:flex;
@@ -76,22 +80,32 @@ main
 
 .VerticalRule
 {
-   color: solid #DFDFDF;
-    margin-right: 1.6rem;
+    border-left:1px solid #000;
+    margin-left: 1.6rem;
+    height:100%;
+    display: inline-block;
+}
+
+.RightBlurbBoxes
+{
     margin-left: 1.6rem;
 
 }
 
-
-
 .ContentContainer 
 {
-    display: flex;
+    margin-top:0.5rem;
+display: flex;
+    height: 30rem;
 }
 
-.LeftBlurbs
+
+.RightBlurbs
 {
     width: 25%;
+    float: right;
+    height: 100vh;
+    margin-top: 0.5rem;
 }
 
 header
@@ -101,6 +115,24 @@ header
 
 .CenteralImage
 {
-    width: 100%;
-     height: 10rem;
+    max-width: 40%;
+}
+
+.ThickHr
+{
+    border-top: 1px solid #000000;
+    margin-top: 1rem;
+}
+
+.SmallLeftBlurbs
+{
+   width: 25%;
+    max-height: 100%;
+    margin-right: 0.5rem;
+}
+
+.SmallLeftBlurbs p
+{ 
+font-size: 1vh;
+color: #2e652d;
 }
