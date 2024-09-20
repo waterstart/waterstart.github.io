@@ -96,7 +96,7 @@ main
 {
     margin-top:0.5rem;
 display: flex;
-    height: 30rem;
+    max-height: 30rem;
 }
 
 
@@ -126,25 +126,25 @@ header
 
 .SmallLeftBlurbs
 {
-   width: 25%;
-    max-height: 100%;
+   width: 75%;
     margin-right: 0.5rem;
-}
-
-.SmallLeftBlurbs p
-{ 
-font-size: 1vh;
-color: #2e652d;
 }
 
 
 img {
-    max-width: 100%;
-    max-height: 100%;
+    width: 90%;
+    height: 70%;
 }
 
-figcaption {
-    text-align: center;
-    color:gray;
-    font-size: x-small;
+
+html,body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
+
+.image-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
