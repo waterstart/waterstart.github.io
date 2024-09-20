@@ -3,3 +3,15 @@
    font-family: 'Amador', 'Arial Narrow', Arial, sans-serif;
    font-weight: bold;
 }
+ 
+hr
+{
+   color:#ffffff;
+}
+
+
+figcaption {
+   text-align: center;
+   color:gray;
+   font-size: x-small;
+}

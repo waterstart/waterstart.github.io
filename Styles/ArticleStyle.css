@@ -21,11 +21,6 @@ figure {
     max-block-size: 12em;
 }
 
-figure figcaption {
-    text-align: center;
-    color:gray;
-    font-size: x-small;
-}
 .rightimagemed
 {
     max-block-size: 12em;
