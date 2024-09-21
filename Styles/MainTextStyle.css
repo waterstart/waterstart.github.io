@@ -126,8 +126,9 @@ header
 
 .SmallLeftBlurbs
 {
-   width: 75%;
+   width: 100%;
     margin-right: 0.5rem;
+    font-size: clamp(16px,2.25vh,7px);
 }
 
 
@@ -140,6 +141,7 @@ img {
 html,body {
     max-width: 100%;
     overflow-x: hidden;
+    
 }
 
 .image-container {
@@ -148,3 +150,4 @@ html,body {
     margin-right: auto;
 
   }
+
