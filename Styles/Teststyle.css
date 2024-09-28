@@ -1,19 +1,19 @@
 .container {
-    display: flex;
-    max-width: 120px;   /* Set the maximum width */
-    max-height: 80px;   /* Set the maximum height */
-    width: 100%;         /* Set the width to 100% of the parent container */
-    height: auto;        /* Let the height adjust based on content */
-    margin: 0 auto;      /* Center the container horizontally */
-    overflow: hidden;    /* Hide overflowing content */
+    display: grid;
+  height: 100vh;
   }
   
-  .child {
-    flex: 1 1 auto;       /* flex-grow: 1; flex-shrink: 1; flex-basis: auto; */
-    min-width: 0;         /* Ensure content shrinks properly */
-    min-height: 0;        /* Ensure content shrinks properly */
+  .item
+  {
+
   }
-#myElement
-{
-    color:seagreen;
-}
+
+  .container >div
+  {
+    background-color: aqua;
+  }
+
+  .container >div:nth-child(odd)
+  {
+    background-color: red;
+  }

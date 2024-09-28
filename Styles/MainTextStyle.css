@@ -9,18 +9,31 @@ hr
 {
     margin: 0;
 }
+
 .CategoryBlock
 {
-display:flex;
 margin-top: 0.5rem;
-justify-content:center;
 gap: 1rem;
+display: flex;
+overflow-x: scroll;
+overscroll-behavior-inline: contain;
+scrollbar-width: none;
+}
+
+
+
+.CategoryBlock > *:first-child {
+    margin-left: auto;
+}
+
+.CategoryBlock > *:last-child {
+    margin-right: auto;
 }
 
 .CategoryBlock button
 {
     font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-    font-size:     1.5625rem;
+    font-size:   2rem;
     border: 0;
     color:#2e652d;
     background-color: white;
@@ -75,8 +88,9 @@ main
     margin-right: 15%;
     font-family: 'pt-serif', serif;
     container-name: ContentResize;
-container-type: inline-size;
-
+container-type:inherit;
+display: grid;
+grid-template-columns: 72.5% 5% 22.5%;
 }
 
 
@@ -89,30 +103,23 @@ container-type: inline-size;
     display: inline-block;
 }
 
-.RightBlurbBoxes
+.RightBlurbs
 {
-    margin-left: 1.6rem;
 
 }
 
 .ContentContainer 
 {
     margin-top:0.5rem;
-display: flex;
+display: grid;
 height: 30rem;
 position: relative;
+grid-template-columns: 28rem;
 
 }
 
 
-.RightBlurbs
-{
-    width: 25%;
-    float: right;
-    height: 100vh;
-    margin-top: 0.5rem;
-   
-}
+
 
 header
 {
@@ -148,9 +155,6 @@ figure
 {
     width: 40%;
     height: 50%;
-    position: absolute; /* Change this */
-    top: 0; /* Add this */
-    right: 0; /* Add this */
     margin-right:1rem;
 }
 
