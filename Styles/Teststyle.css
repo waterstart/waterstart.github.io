@@ -1,19 +1,162 @@
-.container {
-    display: grid;
-  height: 100vh;
-  }
-  
-  .item
-  {
+body {
+  font-family: Verdana, Geneva, sans-serif;
+}
+h1 {
+  text-align: center;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.navwrap {
+  max-width: 600px;
+  margin: auto;
+  overflow-y: auto;
+  white-space: nowrap;
+ /* -webkit-overflow-scrolling: touch; seems to confine overflow in error  */
+  padding-bottom: 14px;
+}
 
-  }
+.nav {
+  display: table; /*white-space fix*/
+  width: 100%;
+  text-align: center;
+  word-spacing: -9em; /*white-space fix*/
+}
+.nav li {
+  display: inline-block;
+  text-align: left;
+  word-spacing: normal; /*white-space fix*/
+}
+.nav li > a {
+  position: relative;
+}
+.nav li:hover,
+.nav > li > a:hover,
+.nav li:focus,
+.nav > li > a:focus {
+  z-index: 105;
+}
+.nav li li {
+  display: block;
+}
+.nav a {
+  display: block;
+  padding: 7px 10px;
+  background: red;
+  color: #fff;
+  border: 1px solid #000;
+  text-decoration: none;
+  white-space: nowrap;
+  position: relative;
+}
+.nav li:hover > a,
+.nav a:hover,
+.nav li:focus > a,
+.nav a:focus {
+  background: #000;
+}
+.nav ul {
+  position: absolute;
+  z-index: 104;
+  left: -999em;
+  top: 0;
+  opacity: 0;
+  transition: opacity 0.5s, left 0s 0.5s, top 0.5s;
+}
+.nav li:hover > ul {
+  left: auto;
+  top: auto;
+  opacity: 1;
+  transition: opacity 0.5s linear, top 0.5s;
+}
+.nav li:focus-within > ul {
+  left: auto;
+  top: auto;
+  opacity: 1;
+  transition: opacity 0.5s linear, top 0.5s;
+}
+.nav ul ul {
+  transition: opacity 0.4s, left 0s 0.4s, margin 0s 0.4s;
+  z-index: 103;
+}
+.nav li li:hover ul {
+  top: auto;
+  margin-left: 100%;
+  transform: translateY(-2.2rem);
+  opacity: 1;
+  transition: opacity 0.5s linear, margin 0.5s;
+}
+.nav li li:focus-within ul {
+  top: auto;
+  margin-left: 100%;
+  transform: translateY(-2.2rem);
+  opacity: 1;
+  transition: opacity 0.5s linear, margin 0.5s;
+}
 
-  .container >div
-  {
-    background-color: aqua;
-  }
+/* arrows */
+.nav li a:first-child:not(:last-child) {
+  padding-right: 20px; /* make space for arrows*/
+}
+.nav li a:first-child:not(:last-child):after {
+  content: "";
+  position: absolute;
+  right: 3px;
+  top: 50%;
+  margin-top: -6px;
+  width: 0;
+  height: 0;
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-left: 6px solid yellow;
+}
+.nav > li > a:first-child:not(:last-child):after {
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid yellow;
+  border-bottom: none;
+  margin-top: -3px;
+}
+.nav li:hover a:first-child:not(:last-child):after {
+  border-left-color: #fff;
+}
+.nav li:focus-within a:first-child:not(:last-child):after {
+  border-left-color: #fff;
+}
 
-  .container >div:nth-child(odd)
-  {
-    background-color: red;
-  }
+.nav > li:hover > a:first-child:not(:last-child):after {
+  border-left-color: transparent;
+  border-top-color: #fff;
+}
+.nav > li:focus-within > a:first-child:not(:last-child):after {
+  border-left-color: transparent;
+  border-top-color: #fff;
+}
+
+/* allow touch to play but probably won't work with this scrolling version*/
+.nav .touch-only {
+  display: none;
+  left: -10px;
+}
+.touch-device .nav .touch-only {
+  display: inline-block;
+}
+.touch-device .nav .touch-only a {
+  background: #000;
+  color: #fff;
+}
+
+.wrap {
+  padding: 20px;
+  max-width: 980px;
+  margin: auto;
+  background: #eee;
+}
+
+/* remove hover when scrolling  */
+.isScrolling .nav ul.dropdown{ 
+  left: -999em;
+  opacity:0;
+}
