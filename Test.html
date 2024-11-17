@@ -5,22 +5,49 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Float Image Example</title>
   <style>
-    .container {
-      width: 300px;
-      border: 1px solid #000;
-      padding: 10px;
-    }
-    .top-right-image {
-      float: right;
-      margin: 0 0 10px 10px; /* Adjust margins as needed */
-    }
+ .flex-container {
+  display: flex;
+  align-items: center; /* Vertically center the content */
+  justify-content: center; /* Optional, if you want to center the whole container */
+  gap: 20px; /* Space between paragraphs and the image */
+  width: 100%; /* Ensure it uses full width */
+  box-sizing: border-box;
+}
+
+.image {
+  max-width: 100%; /* Prevent the image from overflowing */
+  transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.left-paragraph, .right-paragraph {
+  flex: 1; /* Allow paragraphs to grow and take available space */
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+  .flex-container {
+    justify-content: space-between; /* Space out the items when the screen is large */
+  }
+
+  .image {
+    flex-grow: 1; /* The image will now grow to fill available space on larger screens */
+    max-width: 50%; /* Set a max-width for the image on larger screens */
+  }
+}
+
+@media (min-width: 1024px) {
+  .image {
+    transform: scaleX(1.2); /* Optionally, scale the image to make it grow even more on larger screens */
+  }
+}
   </style>
 </head>
 <body>
-  <div class="container">
-    <p>First paragraph of text.</p>
-    <img src="/images/TheDiscussion/Articles/MachiavellArticle/Potrait.jpg" alt="Top Right Image" class="top-right-image">
-    <p>Second paragraph of text.</p>
+  <div class="content">
+    <p>First paragraph of text. This is where your content starts.</p>
+    <img src="images/DefaultPage/TempPort.png" alt="Descriptive Image">
+    <p>Second paragraph of text. This is where your content continues.</p>
   </div>
 </body>
 </html>
