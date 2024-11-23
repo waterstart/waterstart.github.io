@@ -84,7 +84,8 @@ main
     font-family: 'pt-serif', serif;
     container-name: ContentResize;
 container-type: normal;
-display: grid;
+display: flex;
+flex-direction: column;
 border-width: 1rem;
 border-style:solid;
 grid-template-columns: 72.5% 5% 22.5%;
