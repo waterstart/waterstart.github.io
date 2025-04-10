@@ -1,0 +1,161 @@
+.title
+{
+font-size: 5rem;
+}
+
+hr
+{
+    margin: 0;
+}
+
+
+.CategoryBlock {
+    margin-top: 0.5rem;
+    gap: 1rem;
+    display: flex;
+    overflow-x: scroll;
+    scrollbar-width: thin;
+    >*:first-child {
+      margin-left: auto;
+    }
+    >*:last-child {
+      margin-right: auto;
+    }
+    & button {
+      font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+      font-size: 2rem;
+      border: 0;
+      color: #2e652d;
+      background-color: white;
+      position: relative;
+    
+       &:hover{
+          color: #51b44f;
+              }
+    }
+  }
+  
+  .Categories {
+    position: absolute;
+    left: var(--scrolled-left);
+    top: var(--top-pos);
+    display: none;
+    border: #2e652d;
+    background-color: hsl(0, 0%, 95%);
+    border-color: #2e652d;
+    border-style: solid;
+    border-width: thin;
+    max-width: 10rem;
+    z-index: 10;
+  }
+  
+
+  .DropDown {
+    & a {
+    display: block;
+    text-decoration: none;
+    color: #63815f;
+    font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 1.125rem;
+    margin: 0rem 0.5rem 1rem 0.5rem;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &:hover .Categories{   
+     display: block;
+  }
+}
+  
+
+#DateObject
+{
+    font-size: 1rem;
+    text-align: center;
+}
+
+main
+{
+    padding-top:1rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5px;
+    font-family: 'pt-serif', serif;
+
+    & img
+    {
+      max-block-size: 100%;
+      width: 100%;
+      filter: grayscale(100%);
+      transition: filter 0.8s ease;
+      &:hover
+      {
+        filter: grayscale(0%);
+      }
+    }
+
+    & h1 
+    {
+      font-size: 1rem;
+
+    }
+}
+
+.FocusBlurbs
+{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+
+.TickerBox
+{
+  display:flex;
+  font-size:1.5rem;
+  font-style: italic;
+}
+.MiniLogo
+{
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color:white;
+  border-color:#51b44f;
+  margin-left:0.4%;
+  padding-right:0.2%;
+  border-style:solid;
+  background-color: #51b44f;
+  transform: skew(-20deg);
+
+}
+
+.VerticalRule
+{
+    border-left:1px solid #c7c7c7 ;
+    margin-left: 1.6rem;
+    display: inline-block;
+}
+
+
+
+figure
+{   
+      width: 50%;
+    height:50%;
+    margin-right:1rem;
+
+}
+
+header
+{
+     margin-bottom: 1rem;
+}
+
+
+html,body {
+    max-width: 100%;
+    overflow-x: hidden;
+    
+}
+

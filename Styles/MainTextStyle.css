@@ -1,184 +1,128 @@
-
-.title
-{
-font-size: 5rem;
+.title {
+  font-size: 5rem;
 }
 
-hr
-{
-    margin: 0;
+hr {
+  margin: 0;
 }
 
 .CategoryBlock {
-    margin-top: 0.5rem;
-    gap: 1rem;
-    display: flex;
-    overflow-x: scroll;
-    scrollbar-width: thin;
-  }
-  
-  .CategoryBlock>*:first-child {
-    margin-left: auto;
-  }
-  
-  .CategoryBlock>*:last-child {
-    margin-right: auto;
-  }
-  
-  .CategoryBlock button {
-    font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-    font-size: 2rem;
-    border: 0;
-    color: #2e652d;
-    background-color: white;
-    position: relative;
-  }
-  
-  .CategoryBlock button:hover {
-    color: #51b44f
-  }
-  
-  .Categories {
-    position: absolute;
-    left: var(--scrolled-left);
-    top: var(--top-pos);
-    display: none;
-    border: #2e652d;
-    background-color: hsl(0, 0%, 95%);
-    border-color: #2e652d;
-    border-style: solid;
-    border-width: thin;
-    max-width: 10rem;
-    z-index: 10;
-  }
-  
-
-  .DropDown a {
-    display: block;
-    text-decoration: none;
-    color: #63815f;
-    font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-    font-size: 1.125rem;
-    margin: 0rem 0.5rem 1rem 0.5rem;
-  }
-  
-  .DropDown a:hover {
-    text-decoration: underline;
-  }
-  
-  .DropDown:hover .Categories {
-    display: block;
-  }
-
-#DateObject
-{
-    font-size: 1rem;
-    text-align: center;
+  margin-top: 0.5rem;
+  gap: 1rem;
+  display: flex;
+  overflow-x: scroll;
+  scrollbar-width: thin;
+}
+.CategoryBlock > *:first-child {
+  margin-left: auto;
+}
+.CategoryBlock > *:last-child {
+  margin-right: auto;
+}
+.CategoryBlock button {
+  font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 2rem;
+  border: 0;
+  color: #2e652d;
+  background-color: white;
+  position: relative;
+}
+.CategoryBlock button:hover {
+  color: #51b44f;
 }
 
-
-main
-{
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 5px;
-    font-family: 'pt-serif', serif;
-    container-name: ContentResize;
-container-type: normal;
-display: flex;
-flex-direction: column;
-border-width: 1rem;
-border-style:solid;
-grid-template-columns: 72.5% 5% 22.5%;
+.Categories {
+  position: absolute;
+  left: var(--scrolled-left);
+  top: var(--top-pos);
+  display: none;
+  border: #2e652d;
+  background-color: hsl(0, 0%, 95%);
+  border-color: #2e652d;
+  border-style: solid;
+  border-width: thin;
+  max-width: 10rem;
+  z-index: 10;
 }
 
-.TickerBox
-{
-  display:flex;
-  font-size:1.5rem;
+.DropDown a {
+  display: block;
+  text-decoration: none;
+  color: #63815f;
+  font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 1.125rem;
+  margin: 0rem 0.5rem 1rem 0.5rem;
+}
+.DropDown a:hover {
+  text-decoration: underline;
+}
+.DropDown:hover .Categories {
+  display: block;
+}
+
+#DateObject {
+  font-size: 1rem;
+  text-align: center;
+}
+
+main {
+  padding-top: 1rem;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5px;
+  font-family: "pt-serif", serif;
+}
+main img {
+  max-block-size: 100%;
+  width: 100%;
+  filter: grayscale(100%);
+  transition: filter 0.8s ease;
+}
+main img:hover {
+  filter: grayscale(0%);
+}
+
+.FocusBlurbs {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+.TickerBox {
+  display: flex;
+  font-size: 1.5rem;
   font-style: italic;
 }
-.MiniLogo
-{
-  font-family: 'Arial Narrow', Arial, sans-serif;
+
+.MiniLogo {
+  font-family: "Arial Narrow", Arial, sans-serif;
   font-weight: bold;
   font-size: 1.5rem;
-  color:white;
-  border-color:#51b44f;
-  margin-left:0.4%;
-  padding-right:0.2%;
-  border-style:solid;
+  color: white;
+  border-color: #51b44f;
+  margin-left: 0.4%;
+  padding-right: 0.2%;
+  border-style: solid;
   background-color: #51b44f;
   transform: skew(-20deg);
-
 }
 
-
-
-.VerticalRule
-{
-    border-left:1px solid #c7c7c7 ;
-    margin-left: 1.6rem;
-    display: inline-block;
+.VerticalRule {
+  border-left: 1px solid #c7c7c7;
+  margin-left: 1.6rem;
+  display: inline-block;
 }
 
-.RightBlurbs
-{
-
+figure {
+  width: 50%;
+  height: 50%;
+  margin-right: 1rem;
 }
 
-.ContentContainer p
-{
-max-inline-size: 40%;
-max-height: 50%;
+header {
+  margin-bottom: 1rem;
 }
 
-.ContentContainer 
-{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-    margin-top:0.5rem;
-height: 30rem;
-border-width: 1rem;
-border-style:solid;
-}
-
-
-
-.ContentContainer hr
-{
-   
-    width: 40%;
-}
-
-img
-{
-    max-block-size: 100%;
-    width: 100%;
-}
-
-figure
-{   
-      width: 50%;
-    height:50%;
-    margin-right:1rem;
-
-}
-
-header
-{
-     margin-bottom: 1rem;
-}
-
-
-
-
-
-
-html,body {
-    max-width: 100%;
-    overflow-x: hidden;
-    
-}
-
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}/*# sourceMappingURL=MainTextStyle.css.map */

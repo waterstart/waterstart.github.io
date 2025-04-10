@@ -1,35 +1,26 @@
 <!DOCTYPE html>
 
 <html lang="en">
+  <head>
+    <link rel="icon" href="/images/DefaultPage/DiscussionIcon.png" />
+    <title>The discussion</title>
+    <link rel="stylesheet" href="https://use.typekit.net/jlk0omt.css" />
+    <link rel="stylesheet" href="/Styles/MainTextStyle.css" />
+    <link rel="stylesheet" href="/Styles/DefaultStyle.css" />
 
+    <script src="/Scripts/Time.js"></script>
+    <script src="/Scripts/Dropdown.js"></script>
+    <script src="/Scripts/ScrollingTicker.js"></script>
+  </head>
 
-<head>
-  <link rel="icon" href="/images/DefaultPage/DiscussionIcon.png">
-  <title> The discussion </title>
-  <link rel="stylesheet" href="https://use.typekit.net/jlk0omt.css">
-  <link rel="stylesheet" href="/Styles/MainTextStyle.css">
-  <link rel="stylesheet" href="/Styles/DefaultStyle.css">
-
-  <script src="/Scripts/Time.js"></script>
-  <script src="/Scripts/Dropdown.js"></script>
-  <script src="/Scripts/ScrollingTicker.js"></script>
-
-</head>
-
-
-<body>
+  <body>
     <h1 id="DateObject"></h1>
 
-    <div class="title">
-
-      The <span style="color: #2e652d">Discussion</span>
-    </div>
+    <div class="title">The <span style="color: #2e652d">Discussion</span></div>
 
     <nav class="CategoryBlock">
       <div class="DropDown">
-        <button>
-          Articles
-        </button>
+        <button>Articles</button>
         <nav class="Categories">
           <a></a>
           <a href="">Feature articles</a>
@@ -38,9 +29,7 @@
         </nav>
       </div>
       <div class="DropDown">
-        <button>
-          Short stories
-        </button>
+        <button>Short stories</button>
         <nav class="Categories">
           <a></a>
           <a href="">Narratives</a>
@@ -49,9 +38,7 @@
         </nav>
       </div>
       <div class="DropDown">
-        <button>
-          Essays
-        </button>
+        <button>Essays</button>
         <nav class="Categories">
           <a></a>
           <a href="">Persuassive</a>
@@ -60,14 +47,10 @@
         </nav>
       </div>
       <div class="DropDown">
-        <button>
-          Debates
-        </button>
+        <button>Debates</button>
       </div>
       <div class="DropDown">
-        <button>
-          Scientific reports
-        </button>
+        <button>Scientific reports</button>
         <nav class="Categories">
           <a></a>
           <a href="">Physics</a>
@@ -75,9 +58,7 @@
         </nav>
       </div>
       <div class="DropDown">
-        <button>
-          Devlogs
-        </button>
+        <button>Devlogs</button>
         <nav class="Categories">
           <a></a>
           <!--    <a href="">Physom</a>-->
@@ -88,9 +69,7 @@
         </nav>
       </div>
       <div class="DropDown">
-        <button>
-          Programs
-        </button>
+        <button>Programs</button>
         <nav class="Categories">
           <a href="">Rasterizer</a>
           <!--<a href="">Physom</a>-->
@@ -100,9 +79,7 @@
         </nav>
       </div>
       <div class="DropDown">
-        <button>
-          Math
-        </button>
+        <button>Math</button>
         <nav class="Categories">
           <a></a>
           <a href="">Discrete</a>
@@ -112,14 +89,27 @@
         </nav>
       </div>
     </nav>
-    <div class = "TickerBox">
-      <div class = "MiniLogo">BREAKING</div>
-      <marquee direction="left"  id ="TickerObject" scrollamount = "10">
-      </marquee>
+    <div class="TickerBox">
+      <div class="MiniLogo">BREAKING</div>
+      <marquee direction="left" id="TickerObject" scrollamount="10"> </marquee>
     </div>
-<hr>
+    <hr />
 
+    <main>
+      <div class="FocusBlurbs">
+        <div >
+          <h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur voluptatibus neque voluptas perferendis repellat et veniam, obcaecati eos reprehenderit saepe magni amet, tempore, molestias recusandae aspernatur deleniti. Officiis, deleniti rem.
+          </h1>
 
-
-  
-</body>
+        </div>
+        <div class="BlurbTitles">
+          <img
+            src="/images/TheDiscussion/Articles/MachiavellArticle/Potrait.jpg"
+          />
+        </div>
+        <div class="BlurbTitles">third section</div>
+      </div>
+    </main>
+  </body>
+</html>
