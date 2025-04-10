@@ -2,7 +2,6 @@
 .title
 {
 font-size: 5rem;
-text-align: center;
 }
 
 hr
@@ -50,8 +49,10 @@ hr
     border-style: solid;
     border-width: thin;
     max-width: 10rem;
+    z-index: 10;
   }
   
+
   .DropDown a {
     display: block;
     text-decoration: none;
@@ -89,6 +90,27 @@ flex-direction: column;
 border-width: 1rem;
 border-style:solid;
 grid-template-columns: 72.5% 5% 22.5%;
+}
+
+.TickerBox
+{
+  display:flex;
+  font-size:1.5rem;
+  font-style: italic;
+}
+.MiniLogo
+{
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color:white;
+  border-color:#51b44f;
+  margin-left:0.4%;
+  padding-right:0.2%;
+  border-style:solid;
+  background-color: #51b44f;
+  transform: skew(-20deg);
+
 }
 
 
