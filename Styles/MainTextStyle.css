@@ -73,6 +73,7 @@ main {
   font-family: "pt-serif", serif;
 }
 main img {
+  border-radius: 2%;
   max-block-size: 100%;
   width: 100%;
   filter: grayscale(100%);
@@ -81,10 +82,33 @@ main img {
 main img:hover {
   filter: grayscale(0%);
 }
+main .BlurbTitles {
+  font-size: 3rem;
+  line-height: 3rem;
+  background-image: linear-gradient(#2e652d, #2e652d);
+  background-position: left 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 1.75px;
+  transition: background-size 0.6s ease-in-out;
+}
+main .BlurbTitles:hover {
+  background-size: 100% 1.75px;
+}
+main div {
+  border-style: dotted;
+  border-width: 0.1rem;
+}
 
 .FocusBlurbs {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
+}
+.FocusBlurbs div {
+  padding-right: 5%;
+  padding-left: 5%;
+}
+.FocusBlurbs img {
+  aspect-ratio: 1.5135/1;
 }
 
 .TickerBox {
